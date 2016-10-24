@@ -1,10 +1,20 @@
-var titulo= document.getElementById('form-signin-heading');
-titulo.innerHTML="Por favor inicia sesión";
+function titulo(){
+	var titulo= document.getElementById('form-signin-heading');
+	titulo.innerHTML="Por favor inicia sesión";
+}titulo();
 
-var email= document.getElementById('inputEmail').placeholder='Correo Electrónico';
+function email(){
+	document.getElementById('inputEmail').placeholder='Correo Electrónico';
+}email();
 
-var contraseña= document.getElementById('inputPassword').placeholder='Contraseña';
+function contraseña(){
+	document.getElementById('inputPassword').placeholder='Contraseña';
+}contraseña();
 
-var remember= document.getElementsByTagName("SPAN")[0].textContent = "Recordar datos";
+function recordar(){
+	document.getElementsByTagName("SPAN")[0].textContent = "Recordar datos";
+}recordar();
 
-var boton= document.getElementsByTagName("BUTTON")[0].textContent = "Iniciar Sesión";
+function boton(){
+	document.getElementsByTagName("BUTTON")[0].textContent = "Iniciar Sesión";
+}boton();
